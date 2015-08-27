@@ -1,0 +1,87 @@
+.navbar {
+	padding: 0 30px;
+
+	.navbar-brand {
+		
+		a {
+			color: #444;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.banner {
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+
+	h1 {
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 70px;
+	}
+}
+
+.search {
+	margin-bottom: 100px;
+
+	input {
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+		padding: 0 10px;
+
+		a {
+			width: 200px;
+		}
+	}
+}
+
+form {
+	width: 500px;
+	margin: 40px auto;
+
+	input {
+		height: 40px;
+		font-size: 19px;
+	}
+
+	button {
+		margin-top: 10px;
+		width: 300px;
+		height: 40px;
+		font-size: 30px;
+	}
+}
+
+.write-form {
+	
+	.textbox {
+		padding: 0;
+	}
+
+	textarea {
+		padding: 10px;
+		margin: 10px 0;
+		width: 100%;
+		resize: none;
+		min-height: 400px;
+	}
+	
+	.buttonbox {
+		padding: 0;
+	}
+	
+	.btn {
+		width: 100%;
+	}
+
+}
+
+.review-sheet {
+	padding: 40px 100px;
+}
+
