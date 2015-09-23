@@ -1,14 +1,4 @@
 
-id
-subno
-email
-username
-date
-notes
-rating
-
-
-
 CREATE TABLE subject (
 	subject_id INT(11) NOT NULL AUTO_INCREMENT,
         subject_no VARCHAR(30) NOT NULL,

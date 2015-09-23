@@ -85,3 +85,22 @@ form {
 	padding: 40px 100px;
 }
 
+
+.register-main {
+
+  header {
+    padding-top: 20px;
+    width: 500px;
+    color: #777;
+    margin: 0 auto;
+  }
+
+  .register-input {
+    input {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+      padding-left: 10px;
+    }
+  }
+}
