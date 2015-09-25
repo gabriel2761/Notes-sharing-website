@@ -20,9 +20,11 @@ CREATE TABLE note (
 	title VARCHAR(20) NOT NULL,	
 	date DATE NOT NULL,
 	notes TEXT NOT NULL,
-	PRIMARY KEY(note_id)
-        CONSTRAINT fk_studentNote FOREIGN KEY (note_id) REFERENCES student(student_id)
-        CONSTRAINT fk_subjectNote FOREIGN KEY (note_id) REFERENCES subject(subject_id)
+        student_id INT(11),
+        subject_id INT(11),
+	PRIMARY KEY(note_id),
+        CONSTRAINT fk_studentNote FOREIGN KEY (student_id) REFERENCES student(student_id),
+        CONSTRAINT fk_subjectNote FOREIGN KEY (subject_id) REFERENCES subject(subject_id)
 );
 
 CREATE TABLE student (
@@ -32,5 +34,5 @@ CREATE TABLE student (
         username VARCHAR(15) NOT NULL,
         password VARCHAR(20) NOT NULL,        
 	email VARCHAR(50) NOT NULL,        
-	PRIMARY KEY (student_id);        
+	PRIMARY KEY (student_id)        
 );
