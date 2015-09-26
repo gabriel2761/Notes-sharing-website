@@ -35,6 +35,7 @@
                 <input name="password" placeholder="Password">
                 <input name="password-confirm" placeholder="Confirm Password">
                 <input name="password-confirm" placeholder="Confirm Password">
+                <button type="submit" class="btn btn-danger">Create Account</button>
             </section>
 
         </form>

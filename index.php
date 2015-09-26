@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="src/style/css/style.css">
 </head>
 <body>
-    <header class="navbar navbar-default">
+    <header class="navbar navbar-default navigation-bar">
         <section class="container-fluid">
             <header class="navbar-brand">
                 <a href="index.php">No7es</a>
@@ -32,8 +32,8 @@
         </section>
     </header>
 
-    <main>
-        <article class="text-center banner">
+    <main class="index-main">
+        <article class="text-center notes-title">
             <h1>No7es</h1>
             A resource for UTS students to share and upload notes
         </article>

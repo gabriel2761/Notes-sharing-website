@@ -19,23 +19,12 @@
         </section>
     </header>
 
-    <main>
-        
-        <form method="post" action="review.php" class="write-form">
-            <section class="row">
-                <input name="subject" class="col-sm-3" type="text" placeholder="Subject No.">
-                <input name="title" class="col-sm-9"type="text" placeholder="Title">
-            </section>
-
-            <section class="row">
-                <div class="col-sm-12 textbox">
-                    <textarea placeholder="Write notes" name="notes" id=""></textarea>
-                </div>
-            </section>
-
-            <section class="col-sm-12 buttonbox">
-                <button type="submit" class="btn btn-danger">Submit</button>
-            </section>
+    <main class="write-main">
+        <form method="post" action="review.php">
+            <input name="subject" type="text" placeholder="Subject No.">
+            <input name="title" type="text" placeholder="Title">
+            <textarea placeholder="Write notes" name="notes" id=""></textarea>
+            <button type="submit" class="btn btn-danger">Submit</button>
         </form>
     </main>
 
