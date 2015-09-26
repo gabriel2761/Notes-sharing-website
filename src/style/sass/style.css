@@ -45,7 +45,6 @@
     width: 100%;
     resize: none;
     min-height: 400px;
-    padding: 0 10px;
     height: 40px;
     font-size: 19px; }
   .write-main input {
@@ -80,6 +79,27 @@
     color: #777;
     margin: 0 auto; }
   .register-main input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 19px; }
+
+/*
+
+  login.php
+  All css for code within <main>
+
+*/
+.login-main {
+  width: 500px;
+  margin: 0 auto; }
+  .login-main header {
+    padding-top: 20px;
+    width: 500px;
+    color: #777;
+    margin: 0 auto; }
+  .login-main input {
     width: 100%;
     margin-bottom: 10px;
     padding: 0 10px;

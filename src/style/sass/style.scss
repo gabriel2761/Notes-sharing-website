@@ -25,7 +25,6 @@ $input-padding: 0 10px;
 
 
 
-
 /*
 
   index.php
@@ -66,8 +65,6 @@ $input-padding: 0 10px;
 
 
 
-
-
 /*
 
   write.php
@@ -83,7 +80,6 @@ $input-padding: 0 10px;
     width: 100%;
     resize: none;
     min-height: 400px;
-    padding: $input-padding;
     height: $input-height;
     font-size: $input-fontsize;
   }
@@ -100,8 +96,6 @@ $input-padding: 0 10px;
 
 
 
-
-
 /*
 
   review.php
@@ -112,11 +106,6 @@ $input-padding: 0 10px;
   width: $standard-width;
   margin: $centre-margin;
 }
-
-
-
-
-
 
 
 
@@ -146,3 +135,33 @@ $input-padding: 0 10px;
   }
 
 }
+
+
+
+/*
+
+  login.php
+  All css for code within <main>
+
+*/
+.login-main {
+  width: $standard-width;
+  margin: $centre-margin;
+
+  header {
+    padding-top: 20px;
+    width: 500px;
+    color: #777;
+    margin: 0 auto;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: $input-padding;
+    height: $input-height;
+    font-size: $input-fontsize;
+  }
+
+}
+
