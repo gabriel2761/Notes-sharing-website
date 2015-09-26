@@ -49,8 +49,8 @@ $input-padding: 0 10px;
     margin: 40px auto;
 
     input {
-      height: 40px;
       width: 100%;
+      height: $input-padding;
       font-size: $input-fontsize;
       padding: $input-padding;
     }

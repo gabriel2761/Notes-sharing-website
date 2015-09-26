@@ -22,8 +22,8 @@
     width: 300px;
     margin: 40px auto; }
     .index-main form input {
-      height: 40px;
       width: 100%;
+      height: 0 10px;
       font-size: 19px;
       padding: 0 10px; }
     .index-main form button {
