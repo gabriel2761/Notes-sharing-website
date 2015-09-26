@@ -32,6 +32,9 @@ $password = $_POST["password"];
             if ($password == $row["password"]) {
                 echo 'passwords match!';
 
+
+                $_SESSION['loggedin'] = true;
+                $_SESSION['username'] = $username;
             } else {
                 echo "passwords Don't match!";
             }
