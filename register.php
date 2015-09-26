@@ -19,11 +19,10 @@
             <section class="register-input">
                 <input name="username" placeholder="Username">
                 <input name="first_name" placeholder="First Name">
-                <input name="first_name" placeholder="Last Name">
+                <input name="last_name" placeholder="Last Name">
                 <input name="email" placeholder="Email">
                 <input name="password" placeholder="Password">
-                <input name="password-confirm" placeholder="Confirm Password">
-                <input name="password-confirm" placeholder="Confirm Password">
+                <input name="password_repeat" placeholder="Repeat Password">
                 <button type="submit" class="btn btn-danger">Create Account</button>
             </section>
 

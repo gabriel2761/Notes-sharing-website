@@ -19,11 +19,8 @@
     <h3>Subject Number: <?php echo $subject; ?></h3>
         <h3>Title: <?php echo $title ?></h3>
         <p><?php echo $notes ?></p>
-        
       	<h1>Success!</h1>
-
         <a href="index.php" type="submit" class="btn btn-success">Back to main page</a>
-
     </main>
 
     <?php include('/included-files/scripts.php'); ?>
