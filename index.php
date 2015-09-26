@@ -33,17 +33,15 @@
     </header>
 
     <main class="index-main">
-        <article class="text-center notes-title">
+        <header class="text-center">
             <h1>No7es</h1>
             A resource for UTS students to share and upload notes
-        </article>
+        </header>
 
-        <article class="text-center search">
-            <form action="notes.php" method="post">
-                <input name="search" type="text" placeholder="Subject Number">
-                <button type="submit" class="btn btn-danger">Find Notes</button>
-            </form>
-        </article>
+        <form action="notes.php" method="post">
+            <input name="search" type="text" placeholder="Subject Number">
+            <button type="submit" class="btn btn-danger">Find Notes</button>
+        </form>
 
     </main>
 

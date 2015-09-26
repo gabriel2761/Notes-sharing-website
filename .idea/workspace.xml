@@ -7,16 +7,11 @@
     <list default="true" id="1fa8bbc3-45b1-42b6-b8f4-559dcf40dea3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/c05c8586b8226b09bdbc09e90987a8013f60cb1f/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/c05c8586b8226b09bdbc09e90987a8013f60cb1f/style.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notesQueries.sql" afterPath="$PROJECT_DIR$/notesQueries.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/css/style.css.map" afterPath="$PROJECT_DIR$/src/style/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/sass/style.css.map" afterPath="$PROJECT_DIR$/src/style/sass/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/css/style.css" afterPath="$PROJECT_DIR$/src/style/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/sass/style.css" afterPath="$PROJECT_DIR$/src/style/sass/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/sass/style.scss" afterPath="$PROJECT_DIR$/src/style/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/write.php" afterPath="$PROJECT_DIR$/write.php" />
     </list>
     <ignored path="lynda.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +47,8 @@
             <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/style/sass/style.scss">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="1.5785714">
-                    <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+                  <state vertical-scroll-proportion="0.28333333">
+                    <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
                     <folding />
                   </state>
                 </provider>
@@ -86,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -141,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/src/style/sass/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -687,7 +682,7 @@
     <entry file="file://$PROJECT_DIR$/src/style/sass/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -710,7 +705,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -727,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5785714">
-          <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.28333333">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
           <folding />
         </state>
       </provider>
