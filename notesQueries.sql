@@ -18,11 +18,11 @@ CREATE TABLE note (
 );
 
 CREATE TABLE student (
-        student_id INT(11) NOT NULL AUTO_INCREMENT,
-        first_name VARCHAR(30) NOT NULL,
-        last_name VARCHAR(30) NOT NULL,
-        username VARCHAR(15) NOT NULL,
-        password VARCHAR(20) NOT NULL,
-        email VARCHAR(50) NOT NULL,
-        PRIMARY KEY (student_id)
+  student_id INT(11) NOT NULL AUTO_INCREMENT,
+  first_name VARCHAR(30) NOT NULL,
+  last_name VARCHAR(30) NOT NULL,
+  username VARCHAR(15) NOT NULL,
+  password VARCHAR(20) NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  PRIMARY KEY (student_id)
 );
