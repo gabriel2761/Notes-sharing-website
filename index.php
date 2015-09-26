@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="src/style/css/style.css">
 </head>
 <body>
-<?php include('/included-files/navigation-bar.php'); ?>
+    <?php include('/included-files/navigation-bar.php'); ?>
 
     <main class="index-main">
         <header class="text-center">
@@ -32,8 +32,6 @@
 
     </main>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://localhost:35729/livereload.js"></script>
+    <?php include('/included-files/scripts.php'); ?>
 </body>
 </html>
