@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fa8bbc3-45b1-42b6-b8f4-559dcf40dea3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/included-files/scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/included-files/head-setup.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/confirm.php" afterPath="$PROJECT_DIR$/confirm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes.php" afterPath="$PROJECT_DIR$/notes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/review.php" afterPath="$PROJECT_DIR$/review.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -48,10 +49,10 @@
       <file leaf-file-name="review.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/review.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-35.307693">
-              <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
               <folding>
-                <marker date="1443240891391" expanded="true" signature="1465:1591" placeholder="INSERT INTO ..." />
+                <marker date="1443241216154" expanded="true" signature="1252:1378" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -60,8 +61,8 @@
       <file leaf-file-name="write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36632082">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.29848364">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,22 +71,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.23077">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="52" />
+            <state vertical-scroll-proportion="-20.26923">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="52" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notesQueries.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notesQueries.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="27" selection-end-column="2" />
-              <folding>
-                <marker date="1443234719927" expanded="true" signature="509:813" placeholder="CREATE TABLE..student..." />
               </folding>
             </state>
           </provider>
@@ -94,8 +83,8 @@
       <file leaf-file-name="notes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.5">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state vertical-scroll-proportion="-41.653847">
+              <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -104,8 +93,8 @@
       <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.5">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -114,8 +103,8 @@
       <file leaf-file-name="confirm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/confirm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.076923">
-              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+            <state vertical-scroll-proportion="-17.0">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -126,6 +115,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.3076923">
               <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation-bar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/included-files/navigation-bar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,13 +166,14 @@
         <option value="$PROJECT_DIR$/notesQueries.sql" />
         <option value="$PROJECT_DIR$/src/style/sass/style.scss" />
         <option value="$PROJECT_DIR$/navigation-bar.php" />
-        <option value="$PROJECT_DIR$/notes.php" />
         <option value="$PROJECT_DIR$/included-files/scripts.php" />
+        <option value="$PROJECT_DIR$/included-files/head-setup.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/confirm.php" />
         <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/review.php" />
         <option value="$PROJECT_DIR$/write.php" />
+        <option value="$PROJECT_DIR$/review.php" />
+        <option value="$PROJECT_DIR$/confirm.php" />
+        <option value="$PROJECT_DIR$/notes.php" />
       </list>
     </option>
   </component>
@@ -444,7 +444,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
           <folding>
-            <marker date="1443240891391" expanded="true" signature="1465:1591" placeholder="INSERT INTO ..." />
+            <marker date="1443241216154" expanded="true" signature="1252:1378" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -464,7 +464,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="27" selection-end-column="2" />
           <folding>
-            <marker date="1443234719927" expanded="true" signature="509:813" placeholder="CREATE TABLE..student..." />
+            <marker date="1443234719927" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..student..." />
           </folding>
         </state>
       </provider>
@@ -517,7 +517,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
           <folding>
-            <marker date="1443240891391" expanded="true" signature="1465:1591" placeholder="INSERT INTO ..." />
+            <marker date="1443241216154" expanded="true" signature="1252:1378" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -537,7 +537,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="27" selection-end-column="2" />
           <folding>
-            <marker date="1443234719927" expanded="true" signature="509:813" placeholder="CREATE TABLE..student..." />
+            <marker date="1443234719927" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..student..." />
           </folding>
         </state>
       </provider>
@@ -590,7 +590,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
-            <marker date="1443240891391" expanded="true" signature="1465:1591" placeholder="INSERT INTO ..." />
+            <marker date="1443241216154" expanded="true" signature="1252:1378" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -600,7 +600,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443234719927" expanded="true" signature="509:813" placeholder="CREATE TABLE..student..." />
+            <marker date="1443234719927" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..student..." />
           </folding>
         </state>
       </provider>
@@ -641,7 +641,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443240891391" expanded="true" signature="1465:1591" placeholder="INSERT INTO ..." />
+            <marker date="1443241216154" expanded="true" signature="1252:1378" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -709,6 +709,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notesQueries.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="27" selection-end-column="2" />
+          <folding>
+            <marker date="1443234719927" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..student..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/included-files/head-setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/included-files/navigation-bar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -725,28 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.5">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.23077">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="52" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/confirm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.076923">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -767,38 +767,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notesQueries.sql">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="27" selection-end-column="2" />
+        <state vertical-scroll-proportion="-20.26923">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="52" />
           <folding>
-            <marker date="1443234719927" expanded="true" signature="509:813" placeholder="CREATE TABLE..student..." />
+            <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-41.653847">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.5">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/review.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-35.307693">
-          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
           <folding>
-            <marker date="1443240891391" expanded="true" signature="1465:1591" placeholder="INSERT INTO ..." />
+            <marker date="1443241216154" expanded="true" signature="1252:1378" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36632082">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.29848364">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

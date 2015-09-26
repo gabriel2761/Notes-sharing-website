@@ -30,13 +30,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
     <title>Document</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="src/style/css/style.css">
+    <?php include('/included-files/head-setup.php'); ?>
 </head>
 <body>
     <?php include('/included-files/navigation-bar.php'); ?>
@@ -80,9 +75,7 @@
 
 
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://localhost:35729/livereload.js"></script>
+    <?php include('/included-files/scripts.php'); ?>
 </body>
 </html>
 
