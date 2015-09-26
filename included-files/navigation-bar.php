@@ -11,17 +11,16 @@
         if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
             echo "Logged in as " . $_SESSION['username'] . "!";
             ?>
-                <a href="../write.php" class="btn btn-default navbar-btn">Write</a>
+                <a href="../notes-sharing-website/write.php" class="btn btn-default navbar-btn">Write</a>
+                <a href="../notes-sharing-website/logout.php" class="btn btn-default navbar-btn">Log out</a>
             <?php
         } else {
             echo "Not logged in";
             ?>
-                <a href="../login.php" class="btn btn-default navbar-btn">Log in</a>
-                <a href="../register.php" class="btn bt1n-default navbar-btn">Sign up</a>
+                <a href="../notes-sharing-website/login.php" class="btn btn-default navbar-btn">Log in</a>
+                <a href="../notes-sharing-website/register.php" class="btn bt1n-default navbar-btn">Sign up</a>
             <?php
-
         }
-
         ?>
 
 
