@@ -31,17 +31,10 @@
     <link rel="stylesheet" type="text/css" href="src/style/css/style.css">
 </head>
 <body>
-    <header class="navbar navbar-default">
-        <section class="container-fluid">
-            <header class="navbar-brand">
-                <a href="index.php">No7es</a>
-            </header>
-        </section>
-    </header>
-        
+    <?php include('/included-files/navigation-bar.php'); ?>
 
     <main class="row review-sheet">
-    <h3>Subject Number: <?php echo $subject; ?></h2>
+    <h3>Subject Number: <?php echo $subject; ?></h3>
         <h3>Title: <?php echo $title ?></h3>
         <p><?php echo $notes ?></p>
         
