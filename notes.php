@@ -1,25 +1,12 @@
-<?php 
-    $dbhost = "localhost";
-    $dbuser = "gabriel";
-    $dbpass = "password";
-    $dbname = "notes";
-    $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-
-    if (mysqli_connect_errno()) {
-        die("Database connection failed: " .
-            mysqli_connect_error() .
-            " (" . mysqli_connect_errno() . ")"
-        );
-    }
-?>
+<?php include('/included-files/connect-database.php'); ?>
 
 <?php
     $searchResult = $_POST["search"];
 
     $query  = "SELECT * ";
-    $query .= "FROM notes ";
-    $query .= "WHERE subno = " . $searchResult . " ";
-    $query .= "ORDER BY rating;";
+    $query .= "FROM note ";
+    $query .= "WHERE subject_id = " . $searchResult . " ;";
+
 
     $result = mysqli_query($connection, $query);
     if (!$result) {
@@ -49,10 +36,9 @@
             ?>
             <section class="col-md-3">
                 <?php
-                    echo $row["id"]. "<br>";
-                    echo $row["subno"]. "<br>";
-                    echo $row["email"]. "<br>";
-                    echo $row["username"]. "<br>";
+                    echo $row["title"]. "<br>";
+                    echo $row["notes"]. "<br>";
+                    echo $row["date"]. "<br>";
                 ?>
             </section>
 

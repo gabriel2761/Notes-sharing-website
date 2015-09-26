@@ -1,17 +1,4 @@
-<?php 
-    $dbhost = "localhost";
-    $dbuser = "gabriel";
-    $dbpass = "password";
-    $dbname = "notes";
-    $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-
-    if (mysqli_connect_errno()) {
-        die("Database connection failed: " .
-            mysqli_connect_error() .
-            " (" . mysqli_connect_errno() . ")"
-        );
-    }
-?>
+<?php include('/included-files/connect-database.php'); ?>
 
 <?php 
     $subject = $_POST["subject"];
@@ -34,17 +21,9 @@
         <p><?php echo $notes ?></p>
 
         <?php
-            // $query  = "INSERT INTO notes (";
-            // $query .= "subno, email, username, date, notes, rating
-            // ) VALUES (";
-            // $query .= "45765, ";
-            // $query .= "student@uts.edu.au, ";
-            // $query .= "2015-09-24, ";
-            // $query .= "kutyfkuyfk, ";
-            // $query .= "0";
-            // $query .= "); ";
 
-        $query = "INSERT INTO notes (subno, email, username, date, notes, rating) VALUES ($subject, '$notes', 'fdrg', '2015-09-24', '$notes', 0);";
+        $query = "INSERT INTO note (title, date, notes, student_id, subject_id)
+                  VALUES ('$title','2015-09-24', '$notes', 333, 111);";
 
         $result = mysqli_query($connection, $query);
         if (!$result) {
