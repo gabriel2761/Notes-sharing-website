@@ -30,18 +30,17 @@
             </section>
         </article>
 
-        <article class="row">
+        <article class="list-group"> 		
             <?php
                 while ($row = mysqli_fetch_assoc($result)) {
             ?>
-            <section class="col-md-3">
-                <?php
-                    echo $row["title"]. "<br>";
-                    echo $row["notes"]. "<br>";
-                    echo $row["date"]. "<br>";
-                ?>
-            </section>
-
+			
+            <a href = "#" class="list-group-item"> 
+                <?php echo "<h4 class = 'list-group-item-heading'>" .$row["title"]. "</h4>" ?> 	
+				<?php echo "<p class = 'list-group-item-text'>" .$row["notes"]. "</p>" ?> 
+                <?php echo "<p class = 'list-group-item-date'>" .$row["date"]. "</p>" ?> 				
+            </a> 
+			
             <?php
                 }
             ?>
