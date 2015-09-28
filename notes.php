@@ -34,8 +34,9 @@
             <?php
                 while ($row = mysqli_fetch_assoc($result)) {
             ?>
+						
 			
-            <a href = "#" class="list-group-item"> 
+            <a href = "view-note.php?note_id=<?php echo $row['note_id']; ?>" class="list-group-item"> 
                 <?php echo "<h4 class = 'list-group-item-heading'>" .$row["title"]. "</h4>" ?> 	
 				<?php echo "<p class = 'list-group-item-text'>" .$row["notes"]. "</p>" ?> 
                 <?php echo "<p class = 'list-group-item-date'>" .$row["date"]. "</p>" ?> 				
@@ -43,8 +44,8 @@
 			
             <?php
                 }
-            ?>
-
+            ?>			
+			
             <?php
                 mysqli_free_result($result);
             ?>
@@ -54,10 +55,6 @@
 
 
 <!-- ERIC INSERT CODE HERE, CAN DELETE CODE ABOVE, WITHIN MAIN -->
-
-
-
-
 
 
     <?php include('/included-files/scripts.php'); ?>
