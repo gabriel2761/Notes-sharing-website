@@ -111,6 +111,33 @@ $input-padding: 0 10px;
 
 /*
 
+  notes.php
+  All css for code within <notes>
+
+*/
+
+a.list-group-item{
+width: 99%;
+max-width: 800px;
+margin: $centre-margin;
+
+	p.list-group-item-text{
+	 display: inline-block;
+	 width: 70%;
+	}
+	
+	p.list-group-item-date{
+	float: right;
+	display:inline-block;
+	margin: 0;
+	}
+	
+}
+
+
+
+/*
+
   register.php
   All css for code within <main>
 
