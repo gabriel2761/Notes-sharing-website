@@ -112,7 +112,7 @@ $input-padding: 0 10px;
 /*
 
   notes.php
-  All css for code within <notes>
+  All css for code within <notes.php>
 
 */
 
@@ -133,6 +133,37 @@ margin: $centre-margin;
 	}
 	
 }
+
+/*
+
+  view-note.php
+  All css for code within <view-notes.php>
+
+*/
+
+#note-main{
+width: 99%;
+max-width: 800px;
+margin: $centre-margin;
+
+  h2 {
+  text-align: center;
+  margin: 20px;
+  }
+  
+  h5#date{
+  text-align: right;
+  
+  }
+ 
+  p.content{
+  text-align: left;
+  
+  }
+ 
+
+}
+
 
 
 
