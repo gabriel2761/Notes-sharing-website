@@ -155,10 +155,17 @@ margin: $centre-margin;
   }
   
   h5#date{
-  text-align: right;
-  
+  display: inline-block;
+  float: right;
+  margin: 0.5em;
   }
- 
+  
+  a.back-button{
+  display: inline-block;
+  width: 70%;
+  margin: 0.5em
+  }
+  
   p.content{
   text-align: left;
   white-space: pre-wrap;
