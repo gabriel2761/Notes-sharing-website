@@ -124,6 +124,9 @@ margin: $centre-margin;
 	p.list-group-item-text{
 	 display: inline-block;
 	 width: 70%;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+     white-space: nowrap;	 
 	}
 	
 	p.list-group-item-date{
@@ -158,7 +161,7 @@ margin: $centre-margin;
  
   p.content{
   text-align: left;
-  
+  white-space: pre-wrap;
   }
  
 
