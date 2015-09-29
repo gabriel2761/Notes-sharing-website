@@ -1,7 +1,7 @@
 <?php include('/included-files/connect-database.php'); ?>
 
 <?php
-    $searchResult = $_POST["search"];
+    $searchResult = $_GET["search"];
 
     $query  = "SELECT * ";
     $query .= "FROM note ";

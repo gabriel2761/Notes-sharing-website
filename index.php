@@ -22,7 +22,7 @@
             A resource for UTS students to share and upload notes
         </header>
 
-        <form action="notes.php" method="post">
+        <form action="notes.php" method="get">
             <input name="search" type="text" placeholder="Subject Number">
             <button type="submit" class="btn btn-danger">Find Notes</button>
         </form>
