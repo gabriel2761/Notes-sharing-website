@@ -1,11 +1,11 @@
 <?php include('/included-files/connect-database.php'); ?>
 
 <?php
-$first_name = $_POST["first_name"];
-$last_name = $_POST["last_name"];
-$username = $_POST["username"];
-$password = $_POST["password"];
-$email = $_POST["email"];
+$first_name = $_POST[STUDENT_FIRST_NAME];
+$last_name = $_POST[STUDENT_LAST_NAME];
+$username = $_POST[STUDENT_USERNAME];
+$password = $_POST[STUDENT_PASSWORD];
+$email = $_POST[STUDENT_EMAIL];
 ?>
 
     <!DOCTYPE html>
