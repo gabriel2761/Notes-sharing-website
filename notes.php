@@ -1,12 +1,12 @@
 <?php include('/included-files/connect-database.php'); ?>
 
 <?php
-    $searchResult = $_POST["search"];
-
+    $searchResult = $_GET["search"];
+	
     $query  = "SELECT * ";
     $query .= "FROM note ";
-    $query .= "WHERE subject_id = " . $searchResult . " ;";
-
+    $query .= "WHERE subject_id = '" . $searchResult . "' ";
+    $query .= "OR title LIKE '%" . $searchResult . "%';"; 
 
     $result = mysqli_query($connection, $query);
     if (!$result) {
@@ -22,7 +22,8 @@
 </head>
 <body>
     <?php include('/included-files/navigation-bar.php'); ?>
-
+    <?php $_SESSION["searchResult"] = $searchResult?>
+	
     <main>
         <article class="row">
             <section class="col-md-12 text-center">
@@ -48,8 +49,8 @@
 			
             <?php
                 mysqli_free_result($result);
-            ?>
-
+            ?>			
+			
         </article>
     </main>
 
