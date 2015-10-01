@@ -13,14 +13,14 @@
             <h1>Register</h1>
         </header>
         
-        <form method="post" action="confirmRegister.php" class="register-form">
-            <input type="text" id="username-register" name=<?php echo STUDENT_USERNAME ?> placeholder="Username">
+        <form method="post" action="confirm-register.php" class="register-form">
+            <input type="text" id="username-register" name=<?php echo POST_USERNAME ?> placeholder="Username">
             <span id="username-status"></span>
 
-            <input name=<?php echo STUDENT_FIRST_NAME ?> placeholder="First Name">
-            <input name=<?php echo STUDENT_LAST_NAME ?> placeholder="Last Name">
-            <input name=<?php echo STUDENT_EMAIL ?> placeholder="Email">
-            <input name=<?php echo STUDENT_PASSWORD?> placeholder="Password">
+            <input name=<?php echo POST_FIRST_NAME ?> placeholder="First Name">
+            <input name=<?php echo POST_LAST_NAME ?> placeholder="Last Name">
+            <input name=<?php echo POST_EMAIL ?> placeholder="Email">
+            <input name=<?php echo POST_PASSWORD ?> placeholder="Password">
             <input name="password_repeat" placeholder="Repeat Password">
             <button type="submit" class="btn btn-danger">Create Account</button>
 

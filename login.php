@@ -14,8 +14,8 @@
     </header>
 
     <form method="post" action="login-confirm.php" class="register-form">
-        <input name=<?php echo STUDENT_USERNAME ?> placeholder="Username">
-        <input name=<?php echo STUDENT_PASSWORD ?> placeholder="Password">
+        <input name=<?php echo POST_USERNAME ?> placeholder="Username">
+        <input name=<?php echo POST_PASSWORD ?> placeholder="Password">
         <button type="submit" class="btn btn-danger">Log in</button>
     </form>
 
