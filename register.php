@@ -5,10 +5,10 @@
 <html lang="en">
 <head>
     <title>Document</title>
-    <?php include('/included-files/head-setup.php'); ?>
+    <?php include(HEADER_SETUP); ?>
 </head>
 <body>
-    <?php include('/included-files/navigation-bar.php'); ?>
+    <?php include(NAVIGATION_BAR); ?>
 
     <main class="register-main">
         <header>
@@ -33,7 +33,7 @@
 
     </main>
 
-    <?php include('included-files/scripts.php') ?>
+    <?php include(SCRIPTS) ?>
     <script type="text/javascript" >
         $(document).ready(function() {
             var username_input = $('#username-register');
