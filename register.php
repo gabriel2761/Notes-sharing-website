@@ -1,6 +1,4 @@
-<?php
-    include('included-files/Constant.php');
-?>
+<?php include('included-files/Constant.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +10,7 @@
 
     <main class="register-main">
         <header>
-            <h1>
-                Register
-            </h1>
+            <h1>Register</h1>
         </header>
         
         <form method="post" action="confirmRegister.php" class="register-form">
