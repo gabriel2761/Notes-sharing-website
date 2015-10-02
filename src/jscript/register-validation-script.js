@@ -26,7 +26,7 @@ $(document).ready(function() {
     var repass_status = $('#repass-status');
     validation_status = $('#validation-status');
 
-    var input_check = 'input-checkers/check-register.php';
+    var input_check = 'input-validators/register-validator-input.php';
     var required = 'Required';
     var filled = 'tick.jpeg';
     var passwordLength = "must be at least 6 characters";
@@ -92,10 +92,10 @@ $(document).ready(function() {
             email_validated = false;
         } else {
             $.post(input_check, {username:username_input.val()},
-                function(result) {
-                    username_status.text(result);
-                    username_validated = !!result.match(available);
-                });
+            function(result) {
+                username_status.text(result);
+                username_validated = !!result.match(available);
+            });
         }
     });
 
@@ -105,11 +105,11 @@ $(document).ready(function() {
             email_validated = false;
         } else {
             $.post(input_check, {email:email_input.val()},
-                function(result) {
-                    email_status.text(result);
-                    email_validated = !!result.match(available);
-                });
-            }
+            function(result) {
+                email_status.text(result);
+                email_validated = !!result.match(available);
+            });
+        }
     });
 
 });

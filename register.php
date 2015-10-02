@@ -30,13 +30,10 @@
             <span id="validation-status"></span>
         </form>
 
-
-        <div id="tester"></div>
-
     </main>
 
     <?php include(SCRIPTS) ?>
-    <script type="text/javascript" src="src/jscript/register-form-check.js"></script>
+    <script type="text/javascript" src="src/jscript/register-validation-script.js"></script>
 
 </body>
 </html>
