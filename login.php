@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Login</title>
     <?php include(HEADER_SETUP); ?>
 </head>
 <body>
@@ -13,15 +13,16 @@
         <h1>Log in</h1>
     </header>
 
-    <form method="post" action="confirm_login.php" class="register-form">
-        <input name=<?php echo POST_USERNAME ?> placeholder="Username">
-        <input name=<?php echo POST_PASSWORD ?> placeholder="Password">
+    <form method="post" action="confirm_login.php" class="register-form" onsubmit="return validate()">
+        <input id="username" name=<?php echo POST_USERNAME ?> placeholder="Username">
+        <input id="password" name=<?php echo POST_PASSWORD ?> placeholder="Password">
         <button type="submit" class="btn btn-danger">Log in</button>
+        <span id="login-status"></span>
     </form>
-
 
 </main>
 
 <?php include(SCRIPTS); ?>
+<script type="text/javascript" src="src/jscript/login-validation-script.js"></script>
 </body>
 </html>
