@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Register</title>
     <?php include(HEADER_SETUP); ?>
 </head>
 <body>
@@ -12,8 +12,8 @@
         <header>
             <h1>Register</h1>
         </header>
-        
-        <form method="post" action="confirm-register.php" class="register-form">
+
+        <form method="post" action="confirm-register.php" class="register-form" onsubmit="return validate()">
             <input id="username-register" name=<?php echo POST_USERNAME ?> placeholder="Username">
             <span id="username-status"></span>
             <input id="firstname-register" name=<?php echo POST_FIRST_NAME ?> placeholder="First Name">
@@ -26,9 +26,12 @@
             <span id="password-status"></span>
             <input id="password-repeat" name="password_repeat" placeholder="Repeat Password">
             <span id="repass-status"></span>
-            <button type="submit" class="btn btn-danger">Create Account</button>
-
+            <button id="submit-button" type="submit" class="btn btn-danger">Create Account</button>
+            <span id="validation-status"></span>
         </form>
+
+
+        <div id="tester"></div>
 
     </main>
 
