@@ -24,7 +24,14 @@
         $result = mysqli_query($connection, $query);
         $num_rows = mysqli_num_rows($result);
 
-        echo $num_rows != 0;
+        if ($num_rows != 0) {
+            session_start();
+            $_SESSION['loggedin'] = true;
+            $_SESSION['username'] = $username;
+            echo true;
+        } else {
+            echo false;
+        }
     }
 
 ?>

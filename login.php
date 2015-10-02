@@ -13,7 +13,7 @@
         <h1>Log in</h1>
     </header>
 
-    <form method="post" action="confirm_login.php" class="register-form" onsubmit="return validate()">
+    <form method="post" action="index.php" class="register-form" onsubmit="return validate()">
         <input id="username" name=<?php echo POST_USERNAME ?> placeholder="Username">
         <input id="password" name=<?php echo POST_PASSWORD ?> placeholder="Password">
         <button type="submit" class="btn btn-danger">Log in</button>
