@@ -6,7 +6,7 @@
     $query  = "SELECT * ";
     $query .= "FROM note ";
     $query .= "WHERE subject_id = '" . $searchResult . "' ";
-    $query .= "OR title LIKE '%" . $searchResult . "%';"; 
+    $query .= "OR title REGEXP '[[:<:]]" . $searchResult . "[[:>:]]';"; 
 
     $result = mysqli_query($connection, $query);
     if (!$result) {
