@@ -17,49 +17,33 @@
 <html lang="en">
 <head>
     <title>Document</title>
-    <?php include('/included-files/head-setup.php'); ?>
+    <?php include(HEADER_SETUP); ?>
 </head>
 <body>
-    <?php include('/included-files/navigation-bar.php'); ?>
+    <?php include(NAVIGATION_BAR); ?>
 
-    <main id = "note-main">
+    <main id = "view-note-main">
 	
-	 <?php $row = mysqli_fetch_assoc($result); ?>
+		<?php $row = mysqli_fetch_assoc($result); ?>
      
-	 <?php echo "<h2>" . $row["title"] . "</h2>" ?>
+		<h1> <?php echo $row["title"] ?> </h1>
 	 
-	 <a href = "notes.php?search=<?php echo $_SESSION["searchResult"];?>" class = "back-button"> 
-	 <?php echo "< Back to search result '" . $_SESSION["searchResult"] . "'"?>
-	 </a>
+		<a href = "notes.php?search=<?php echo $_SESSION["searchResult"];?>" class = "back-button"> 
+			< Back to search result '<?php echo $_SESSION["searchResult"] ?>' 
+		</a>
 	 
-	 <?php echo "<h5 id = date> Post date: " . $row["date"] . "</h5>" ?>
+		<span id = date> Post date: <?php echo $row["date"] ?> </span>
 	 
-	
-	 	 	 
-	 <article class = "well">
-
-	 <?php echo "<p class = content>" . $row["notes"] . "</p>" ?>
-	 
-	 
-	  
-
-	
-	</article>
-	
-	  
-	<?php
-                mysqli_free_result($result);
-            ?>
+		<article class = "well">
+		
+			<p class = content> <?php echo $row["notes"] ?> </p>
+			
+		</article>
+		
+		<?php  mysqli_free_result($result); ?>
 	
 	</main>
 
-
-
-
-
-
-
-
-    <?php include('/included-files/scripts.php'); ?>
+    <?php include(SCRIPTS); ?>
 </body>
 </html>
