@@ -1,9 +1,6 @@
 <?php
-$dbhost = "localhost";
-$dbuser = "gabriel";
-$dbpass = "password";
-$dbname = "notes";
-$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+include('Constant.php');
+$connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 if (mysqli_connect_errno()) {
     die("Database connection failed: " .

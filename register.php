@@ -1,36 +1,39 @@
-
+<?php include('included-files/Constant.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
-    <?php include('/included-files/head-setup.php'); ?>
+    <title>Register</title>
+    <?php include(HEADER_SETUP); ?>
 </head>
 <body>
-    <?php include('/included-files/navigation-bar.php'); ?>
+    <?php include(NAVIGATION_BAR); ?>
 
     <main class="register-main">
         <header>
-            <h1>
-                Register
-            </h1>
+            <h1>Register</h1>
         </header>
-        
-        <form method="post" action="confirmRegister.php" class="register-form">
-            <section class="register-input">
-                <input name="username" placeholder="Username">
-                <input name="first_name" placeholder="First Name">
-                <input name="last_name" placeholder="Last Name">
-                <input name="email" placeholder="Email">
-                <input name="password" placeholder="Password">
-                <input name="password_repeat" placeholder="Repeat Password">
-                <button type="submit" class="btn btn-danger">Create Account</button>
-            </section>
 
+        <form method="post" action="confirm-register.php" class="register-form" onsubmit="return validate()">
+            <input id="username-register" name=<?php echo POST_USERNAME ?> placeholder="Username">
+            <span id="username-status"></span>
+            <input id="firstname-register" name=<?php echo POST_FIRST_NAME ?> placeholder="First Name">
+            <span id="firstname-status"></span>
+            <input id="lastname-register" name=<?php echo POST_LAST_NAME ?> placeholder="Last Name">
+            <span id="lastname-status"></span>
+            <input id="email-register" name=<?php echo POST_EMAIL ?> placeholder="Email">
+            <span id="email-status"></span>
+            <input id="password-register" name=<?php echo POST_PASSWORD ?> placeholder="Password">
+            <span id="password-status"></span>
+            <input id="password-repeat" name="password_repeat" placeholder="Repeat Password">
+            <span id="repass-status"></span>
+            <button id="submit-button" type="submit" class="btn btn-danger">Create Account</button>
+            <span id="validation-status"></span>
         </form>
-
 
     </main>
 
-    <?php include('/included-files/scripts.php'); ?>
+    <?php include(SCRIPTS) ?>
+    <script type="text/javascript" src="src/jscript/register-validation-script.js"></script>
+
 </body>
 </html>

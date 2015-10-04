@@ -1,29 +1,28 @@
-
+<?php include('included-files/Constant.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
-    <?php include('/included-files/head-setup.php'); ?>
+    <title>Login</title>
+    <?php include(HEADER_SETUP); ?>
 </head>
 <body>
-<?php include('/included-files/navigation-bar.php'); ?>
+<?php include(NAVIGATION_BAR); ?>
 
 <main class="login-main">
     <header>
-        <h1>
-            Log in
-        </h1>
+        <h1>Log in</h1>
     </header>
 
-    <form method="post" action="login-confirm.php" class="register-form">
-        <input name="username" placeholder="Username">
-        <input name="password" placeholder="Password">
+    <form method="post" action="index.php" class="register-form" onsubmit="return validate()">
+        <input id="username" name=<?php echo POST_USERNAME ?> placeholder="Username">
+        <input id="password" name=<?php echo POST_PASSWORD ?> placeholder="Password">
         <button type="submit" class="btn btn-danger">Log in</button>
+        <span id="login-status"></span>
     </form>
-
 
 </main>
 
-<?php include('/included-files/scripts.php'); ?>
+<?php include(SCRIPTS); ?>
+<script type="text/javascript" src="src/jscript/login-validation-script.js"></script>
 </body>
 </html>
