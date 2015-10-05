@@ -116,25 +116,38 @@ $input-padding: 0 10px;
 
 */
 
-a.list-group-item{
+
+#list-notes-main{
 width: 99%;
 max-width: 800px;
 margin: $centre-margin;
 
-	p.list-group-item-text{
-	 display: inline-block;
-	 width: 70%;
-	 overflow: hidden;
-	 text-overflow: ellipsis;
-     white-space: nowrap;	 
+    h1{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+
+	h2{
+		font-size: 18px;
 	}
 	
-	p.list-group-item-date{
-	float: right;
-	display:inline-block;
-	margin: 0;
-	}
+	a.list-group-item{
 	
+		p.list-group-item-text{
+		 display: inline-block;
+		 width: 70%;
+		 overflow: hidden;
+		 text-overflow: ellipsis;
+		 white-space: nowrap;	 
+		}
+	
+		span.note-date{
+		float: right;		
+		margin: 0;
+		}
+	
+	}
 }
 
 /*
@@ -144,18 +157,18 @@ margin: $centre-margin;
 
 */
 
-#note-main{
+#view-note-main{
 width: 99%;
 max-width: 800px;
 margin: $centre-margin;
 
-  h2 {
+  h1 {
+  font-size: 30px;
   text-align: center;
   margin: 20px;
   }
   
-  h5#date{
-  display: inline-block;
+  span#date{
   float: right;
   margin: 0.5em;
   }

@@ -6,7 +6,7 @@
     $query  = "SELECT * ";
     $query .= "FROM note ";
     $query .= "WHERE subject_id = '" . $searchResult . "' ";
-    $query .= "OR title LIKE '%" . $searchResult . "%';"; 
+    $query .= "OR title REGEXP '[[:<:]]" . $searchResult . "[[:>:]]';"; 
 
     $result = mysqli_query($connection, $query);
     if (!$result) {
@@ -18,47 +18,39 @@
 <html lang="en">
 <head>
     <title>Document</title>
-    <?php include('/included-files/head-setup.php'); ?>
+    <?php include(HEADER_SETUP); ?>
 </head>
 <body>
-    <?php include('/included-files/navigation-bar.php'); ?>
+    <?php include(NAVIGATION_BAR); ?>
     <?php $_SESSION["searchResult"] = $searchResult?>
 	
-    <main>
-        <article class="row">
-            <section class="col-md-12 text-center">
-                <p>Search results for  <?php echo $searchResult ?></p>
-            </section>
-        </article>
+    <main id = "list-notes-main">     
 
-        <article class="list-group"> 		
+        <section class="list-group"> 	
+
+			<h1>Search results for  <?php echo $searchResult ?></h1>
+			
             <?php
                 while ($row = mysqli_fetch_assoc($result)) {
             ?>
-						
 			
             <a href = "view-note.php?note_id=<?php echo $row['note_id']; ?>" class="list-group-item"> 
-                <?php echo "<h4 class = 'list-group-item-heading'>" .$row["title"]. "</h4>" ?> 	
-				<?php echo "<p class = 'list-group-item-text'>" .$row["notes"]. "</p>" ?> 
-                <?php echo "<p class = 'list-group-item-date'>" .$row["date"]. "</p>" ?> 				
+                <h2 class = 'list-group-item-heading'> <?php echo $row["title"] ?> </h2>	
+				<p class = 'list-group-item-text'> <?php echo $row["notes"] ?> </p>
+                <span class = 'note-date'> <?php echo $row["date"] ?> </span>			
             </a> 
 			
             <?php
                 }
             ?>			
 			
-            <?php
-                mysqli_free_result($result);
-            ?>			
+            <?php mysqli_free_result($result); ?>			
 			
-        </article>
+        </section>
+		
     </main>
 
-
-<!-- ERIC INSERT CODE HERE, CAN DELETE CODE ABOVE, WITHIN MAIN -->
-
-
-    <?php include('/included-files/scripts.php'); ?>
+    <?php include(SCRIPTS); ?>
 </body>
 </html>
 
