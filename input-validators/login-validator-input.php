@@ -14,10 +14,11 @@
 
         // declare table names
         $student_table = STUDENT_TABLE_NAME;
+        $student_id = STUDENT_ID;
         $student_username = STUDENT_USERNAME;
         $student_password = STUDENT_PASSWORD;
 
-        $query  = " SELECT $student_username, $student_password ";
+        $query  = " SELECT $student_id ,$student_username, $student_password ";
         $query .= " FROM $student_table ";
         $query .= " WHERE $student_username = '$username' && $student_password = '$password';";
 
@@ -26,8 +27,15 @@
 
         if ($num_rows != 0) {
             session_start();
-            $_SESSION['loggedin'] = true;
-            $_SESSION['username'] = $username;
+
+            include('../included-files/SessionConstant.php');
+
+            $_SESSION[SESSION_STATUS] = true;
+            $_SESSION[SESSION_STUDENT_USERNAME] = $username;
+
+            $row = mysqli_fetch_assoc($result);
+            $_SESSION[SESSION_STUDENT_ID] = $row[$student_id];
+
             echo true;
         } else {
             echo false;

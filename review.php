@@ -30,8 +30,11 @@
         $student_id = STUDENT_ID;
         $subject_id = SUBJECT_ID;
 
+
+        $session_student_id = $_SESSION[SESSION_STUDENT_ID];
+
         $query = "INSERT INTO $note_table ($note_title, $note_date, $note_content, $student_id, $subject_id)
-                  VALUES ('$title','2015-09-24', '$content', 333, 111);";
+                  VALUES ('$title','2015-09-24', '$content', $session_student_id, 111);";
 
         $result = mysqli_query($connection, $query);
         if (!$result) {

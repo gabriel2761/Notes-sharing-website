@@ -8,8 +8,11 @@
 
         <?php
             session_start();
-        if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
-            echo "Logged in as " . $_SESSION['username'] . "!";
+
+            include('SessionConstant.php');
+
+        if (isset($_SESSION[SESSION_STATUS]) && $_SESSION[SESSION_STATUS] == true) {
+            echo "Logged in as " . $_SESSION[SESSION_STUDENT_USERNAME] ."!";
             ?>
                 <a href="../notes-sharing-website/write.php" class="btn btn-default navbar-btn">Write</a>
                 <a href="../notes-sharing-website/logout.php" class="btn btn-default navbar-btn">Log out</a>
