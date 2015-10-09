@@ -19,6 +19,8 @@
         <h3>Subject Number: <?php echo $subject_number; ?></h3>
         <h3>Title: <?php echo $title ?></h3>
         <p><?php echo $content ?></p>
+        <?php $current_date = date("Y-m-d H:i:s"); ?>
+        <p><?php echo $current_date ?></p>
 
         <?php
 
@@ -33,8 +35,9 @@
 
         $session_student_id = $_SESSION[SESSION_STUDENT_ID];
 
+
         $query = "INSERT INTO $note_table ($note_title, $note_date, $note_content, $student_id, $subject_id)
-                  VALUES ('$title','2015-09-24', '$content', $session_student_id, 111);";
+                  VALUES ('$title', '$current_date', '$content', $session_student_id, 111);";
 
         $result = mysqli_query($connection, $query);
         if (!$result) {
