@@ -9,19 +9,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
-    <?php include(HEADER_SETUP); ?>
+    <title>Confirmation</title>
+    <?php include(HEADER_SETUP); ?>	
 </head>
 <body>
     <?php include(NAVIGATION_BAR); ?>
 
-    <main class="row review-sheet">
-        <h3>Subject Number: <?php echo $subject_number; ?></h3>
-        <h3>Title: <?php echo $title ?></h3>
-        <p><?php echo $content ?></p>
-        <?php $current_date = date("Y-m-d H:i:s"); ?>
-        <p><?php echo $current_date ?></p>
+    <main id = "note-confirm">
 
+	    <div class="alert alert-success">
+		<span class="glyphicon glyphicon-ok"></span>
+			<strong> The note has been successfully submitted!</strong> 
+		</div>
+		
+		<p><b>Title: </b><?php echo $title ?> </p>
+        <p><b>Subject Number: </b><?php echo $subject_number; ?></p> 		
+        
+		<?php $current_date = date("Y-m-d H:i:s"); ?>
+        <p><b>Time: </b> <?php echo $current_date ?> </p>
+		
+		<p><?php echo $content ?></p>		
+       
         <?php
 
         // declare column names
@@ -43,9 +51,15 @@
         if (!$result) {
             die("Database Query failed");
         }
-
+		
         ?>
-
+        
+		<form action = "index.php">
+			<button type = "submit" class = "btn btn-danger btn-md">
+				<span class = "glyphicon glyphicon-home"></span> Return to home
+			</button>
+	    </form>	
+		
     </main>
 
     <?php include(SCRIPTS); ?>
