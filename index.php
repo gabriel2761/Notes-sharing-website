@@ -7,14 +7,16 @@
  */
 ?>
 
+<?php include('included-files/Constant.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Document</title>
-    <?php include('/included-files/head-setup.php'); ?>
+    <?php include(HEADER_SETUP); ?>
 </head>
 <body>
-    <?php include('/included-files/navigation-bar.php'); ?>
+    <?php include(NAVIGATION_BAR); ?>
 
     <main class="index-main">
         <header class="text-center">
@@ -29,6 +31,6 @@
 
     </main>
 
-    <?php include('/included-files/scripts.php'); ?>
+    <?php include(SCRIPTS); ?>
 </body>
 </html>
