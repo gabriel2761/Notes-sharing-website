@@ -1,6 +1,6 @@
 
 // standard values for main-content centering
-$standard-width: 500px;
+$max-width: 800px;
 $centre-margin: 0 auto;
 
 // standard values for textfields
@@ -8,7 +8,16 @@ $input-height: 40px;
 $input-fontsize: 19px;
 $input-padding: 0 10px;
 
+ 
+main{
+width: 99.99%;
+max-width: $max-width;
+margin: $centre-margin;
+}
 
+h1{
+font-size: 28px;
+}
 
   // NAVIGATION BAR FOR THE WHOLE WEBSITE
 .navbar {
@@ -32,8 +41,6 @@ $input-padding: 0 10px;
 
 */
 .index-main {
-  width: $standard-width;
-  margin: $centre-margin;
 
   header {
     h1 {
@@ -72,8 +79,6 @@ $input-padding: 0 10px;
 
 */
 .write-main {
-  width: $standard-width;
-  margin: $centre-margin;
 
   textarea {
     padding: 10px;
@@ -102,9 +107,17 @@ $input-padding: 0 10px;
   All css for code within <main>
 
 */
-.review-main {
-  width: $standard-width;
-  margin: $centre-margin;
+#note-confirm{
+
+	.alert{
+		border-width: 2px;
+	}
+	
+	button{
+	display: block;
+	margin: 20px auto;
+	}
+
 }
 
 
@@ -118,9 +131,6 @@ $input-padding: 0 10px;
 
 
 #list-notes-main{
-width: 99%;
-max-width: 800px;
-margin: $centre-margin;
 
     h1{
 	font-size: 20px;
@@ -158,9 +168,6 @@ margin: $centre-margin;
 */
 
 #view-note-main{
-width: 99%;
-max-width: 800px;
-margin: $centre-margin;
 
   h1 {
   font-size: 30px;
@@ -197,8 +204,6 @@ margin: $centre-margin;
 
 */
 .register-main {
-  width: $standard-width;
-  margin: $centre-margin;
 
   header {
     padding-top: 20px;
@@ -226,8 +231,6 @@ margin: $centre-margin;
 
 */
 .login-main {
-  width: $standard-width;
-  margin: $centre-margin;
 
   header {
     padding-top: 20px;
