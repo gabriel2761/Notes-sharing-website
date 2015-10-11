@@ -1,6 +1,6 @@
 
 // standard values for main-content centering
-$max-width: 800px;
+$standard-width: 500px;
 $centre-margin: 0 auto;
 
 // standard values for textfields
@@ -11,12 +11,8 @@ $input-padding: 0 10px;
  
 main{
 width: 99.99%;
-max-width: $max-width;
+max-width: 800px;
 margin: $centre-margin;
-}
-
-h1{
-font-size: 28px;
 }
 
   // NAVIGATION BAR FOR THE WHOLE WEBSITE
@@ -78,7 +74,13 @@ font-size: 28px;
   All css for code within <main>
 
 */
-.write-main {
+#write-main {
+
+  header {
+    padding-top: 20px;
+    color: #777;
+    margin: 0;
+  }
 
   textarea {
     padding: 10px;
@@ -96,6 +98,12 @@ font-size: 28px;
     height: $input-height;
     font-size: $input-fontsize;
   }
+  
+  button{
+	display: inline-block;
+	float: left;
+	margin: 20px 5px;
+	}
 
 }
 
@@ -204,6 +212,7 @@ font-size: 28px;
 
 */
 .register-main {
+width: $standard-width;
 
   header {
     padding-top: 20px;
@@ -231,6 +240,7 @@ font-size: 28px;
 
 */
 .login-main {
+width: $standard-width;
 
   header {
     padding-top: 20px;
