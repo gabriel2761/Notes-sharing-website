@@ -149,23 +149,28 @@ margin: $centre-margin;
 	h2{
 		font-size: 18px;
 	}
-	
-	a.list-group-item{
-	
-		p.list-group-item-text{
-		 display: inline-block;
-		 width: 70%;
-		 overflow: hidden;
-		 text-overflow: ellipsis;
-		 white-space: nowrap;	 
-		}
-	
-		span.note-date{
-		float: right;		
-		margin: 0;
-		}
-	
-	}
+
+    .list-group {
+      margin: 10px 0;
+
+        .list-group-item {
+
+            .list-group-item-text {
+              display: inline-block;
+              width: 70%;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+
+           .note-date {
+             float: right;
+             margin: 0;
+           }
+
+        }
+    }
+
 }
 
 /*
