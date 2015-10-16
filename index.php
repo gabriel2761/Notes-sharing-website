@@ -25,7 +25,7 @@
         </header>
 
         <form action="notes.php" method="get">
-            <input name="search" type="text" placeholder="Subject Number">
+            <input class="form-control" name="search" type="text" placeholder="Subject Number or Title">
             <button type="submit" class="btn btn-danger">Find Notes</button>
         </form>
 

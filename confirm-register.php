@@ -15,6 +15,8 @@
         <?php include(HEADER_SETUP); ?>
     </head>
 <body>
+<?php include(NAVIGATION_BAR); ?>
+
 <main id="register-confirm-main" class="text-center">
 
     <?php
@@ -38,11 +40,20 @@
         $result =  "Success!";
     }
     ?>
-
-    <h1><?php echo $result ?></h1>
-
-    <a href="index.php">back to main page</a>
-
+    
+    <header>
+    <h1 class = "text-success"><?php echo $result ?></h1>
+    </header>
+    
+    <section class="message">
+      <p> You have been successfully registered into the system.</p>
+      <p> You can now start writing notes!</p>
+    </section>
+    
+    <div class="return_btn">
+      <a href="index.php" class = "btn btn-danger">Return to main page</a>
+    </div>
+    
     <?php include(SCRIPTS); ?>
 </main>1
 </body>
