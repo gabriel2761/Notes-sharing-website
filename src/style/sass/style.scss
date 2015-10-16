@@ -8,13 +8,16 @@ $input-height: 40px;
 $input-fontsize: 19px;
 $input-padding: 0 10px;
 
+body{
+background-color: #f4f4f6;
+}
  
 main{
 width: 99.99%;
 max-width: 800px;
 margin: $centre-margin;
 }
-
+ 
   // NAVIGATION BAR FOR THE WHOLE WEBSITE
 .navbar {
   padding: 0 30px;
@@ -188,23 +191,22 @@ margin: $centre-margin;
   margin: 20px;
   }
   
-  span#date{
+  #date{
   float: right;
   margin: 0.5em;
   }
   
-  a.back-button{
+  .back-button{
   display: inline-block;
   width: 70%;
   margin: 0.5em
   }
   
-  p.content{
+  .content{
   text-align: left;
   white-space: pre-wrap;
   }
- 
-
+  
 }
 
 
@@ -275,6 +277,14 @@ width: $standard-width;
 
   h1 {
     font-size: 50px;
+  }
+  
+  .message{
+    padding: 15px 0px;
+  }
+  
+  .return_btn{
+    padding: 15px 0px;
   }
 }
 

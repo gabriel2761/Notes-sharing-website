@@ -34,10 +34,8 @@
 	 
 		<span id = date> Post date: <?php echo $row["date"] ?> </span>
 	 
-		<article class = "well">
-		
-			<p class = content> <?php echo $row["notes"] ?> </p>
-			
+		<article class = "panel panel-default">	
+			<p class="panel-body"> <?php echo $row["notes"] ?> </p>			
 		</article>
 		
 		<?php  mysqli_free_result($result); ?>
