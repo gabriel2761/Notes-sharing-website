@@ -1,0 +1,5 @@
+#ignore following files
+.sass-cache/
+src/style/css/**
+src/style/sass/style.css
+src/style/sass/style.css.map
