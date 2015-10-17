@@ -1,6 +1,3 @@
-/**
- * Created by nikom on 2/10/2015.
- */
 
 var username_validated = false;
 var firstname_validated = false;

@@ -1,11 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: nikom
- * Date: 22/08/2015
- * Time: 9:01 PM
- */
-?>
+
 
 <?php include('included-files/Constant.php'); ?>
 
@@ -26,7 +19,7 @@
         </header>
 
         <form action="notes.php" method="get">
-            <input id="searchBar" class="form-control" name="search" type="text" placeholder="Subject Number or Title">
+            <input id="subject-number-input" class="form-control" name="search" type="text" placeholder="Subject Number or Title">
             <button type="submit" class="btn btn-danger">Find Notes</button>
         </form>
 

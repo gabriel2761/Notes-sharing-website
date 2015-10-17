@@ -4,6 +4,7 @@
 <head>
     <title>New Note</title>
     <?php include(HEADER_SETUP); ?>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 </head>
 <body>
     <?php include(NAVIGATION_BAR); ?>
@@ -15,7 +16,7 @@
 		</header>
 	
         <form method="post" action="review.php">
-            <input class="form-control" name=<?php echo POST_NOTE_NUMBER; ?> type="text" placeholder="Subject No.">
+            <input id="subject-number-input" class="form-control" name=<?php echo POST_NOTE_NUMBER; ?> type="text" placeholder="Subject No.">
             <input class="form-control" name=<?php echo POST_NOTE_TITLE; ?> type="text" placeholder="Title">
             <textarea class="form-control" placeholder="Write notes" name=<?php echo POST_NOTE_CONTENT; ?> id=""></textarea>
             <button type="submit" class="btn btn-danger">Submit</button>
@@ -28,5 +29,7 @@
     </main>
 
     <?php include(SCRIPTS); ?>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="src/jscript/search-subject.js" ></script>
 </body>
 </html>
