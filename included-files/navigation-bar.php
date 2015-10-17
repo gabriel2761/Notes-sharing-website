@@ -15,7 +15,7 @@
             echo "Logged in as " . $_SESSION[SESSION_STUDENT_USERNAME] ."!";
             ?>
                 <a href="../notes-sharing-website/write.php" class="btn btn-default navbar-btn">Write</a>
-                <a href="../notes-sharing-website/logout.php" class="btn btn-default navbar-btn">Log out</a>
+                <a href="?link=1" name="link1" class="btn btn-default navbar-btn">Log out</a>
             <?php
         } else {
             echo "Not logged in";
@@ -24,10 +24,18 @@
                 <a href="../notes-sharing-website/register.php" class="btn bt1n-default navbar-btn">Sign up</a>
             <?php
         }
+
+        if (isset($_GET['link'])) {
+            $link = $_GET['link'];
+            if ($link == '1') {
+                session_start();
+                session_destroy();
+                header('Location: index.php');
+                exit();
+            }
+        }
+
         ?>
-
-
-
 
         </nav>
     </section>
