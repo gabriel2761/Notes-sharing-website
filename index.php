@@ -32,18 +32,9 @@
 
     </main>
 
-    <div class="test"></div>
-
     <?php include(SCRIPTS); ?>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-
-    <script>
-        $(function() {
-            $('#searchBar').autocomplete({
-                source: 'input-validators/search-input.php'
-            });
-        });
-    </script>
+    <script src="src/jscript/search-subject.js" ></script>
 
 </body>
 </html>

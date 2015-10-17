@@ -14,5 +14,9 @@
     while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
         $ar[$index++] = $row[$subject_no];
     }
+
+    $ar[0] = 'apples';
+    $ar[1] = 'this is for testing';
+
     echo json_encode($ar);
 ?>
