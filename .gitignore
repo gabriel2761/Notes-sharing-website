@@ -1,5 +1,7 @@
 #ignore following files
 .sass-cache/
+.idea/
+**/.DS_Store
 src/style/css/**
 src/style/sass/style.css
 src/style/sass/style.css.map
