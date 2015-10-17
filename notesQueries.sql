@@ -1,4 +1,11 @@
 
+# create database and user
+CREATE DATABASE notes;
+CREATE USER 'gabriel'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'gabriel'@'localhost';
+
+
+# create tables
 CREATE TABLE subject (
 	subject_id INT(11) NOT NULL AUTO_INCREMENT,
   subject_no VARCHAR(30) NOT NULL,
@@ -26,3 +33,19 @@ CREATE TABLE student (
   email VARCHAR(50) NOT NULL,
   PRIMARY KEY (student_id)
 );
+
+
+/*
+    creates the constant subject numbers for the website
+*/
+INSERT INTO subject (subject_no)
+    VALUES
+      (32998),
+      (2998),
+      (32013),
+      (89204),
+      (32543),
+      (31241),
+      (22708),
+      (22605)
+;
