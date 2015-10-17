@@ -1,7 +1,9 @@
 
 
 $(function() {
-    $('#subject-number-input').autocomplete({
-        source: 'input-validators/search-input.php'
+    $.getJSON('input-validators/search-input.php', function(data) {
+        $('#subject-number-input').autocomplete({
+            source: data
+        });
     });
 });
