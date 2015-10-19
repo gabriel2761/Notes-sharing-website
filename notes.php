@@ -87,7 +87,7 @@
                     }
 
                     if($page != $total_pages && $total_pages != 0) {
-                        echo "<li><a href='notes.php?search=" . $searchResult . "&page=" . $next_page . "''>
+                        echo "<li><a href='notes.php?search=" . $searchResult . "&page=" . $next_page . "'>
                                 <span class = 'glyphicon glyphicon-chevron-right'></span> </a></li>";
                     }
                 ?>

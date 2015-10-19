@@ -1,6 +1,6 @@
-<?php include('/included-files/connect-database.php'); ?>
-
 <?php
+    include('/included-files/connect-database.php');
+
     $searchResult = $_GET["note_id"];
 	
     $query  = "SELECT * ";
@@ -8,9 +8,9 @@
     $query .= "WHERE note_id = " . $searchResult . " ;";
 
     $result = mysqli_query($connection, $query);
-    if (!$result) {
+    if (!$result){
         die("Database Query failed");
-    }	
+    }
 ?>
 
 <!DOCTYPE html>
@@ -23,8 +23,8 @@
     <?php include(NAVIGATION_BAR); ?>
 
     <main id = "view-note-main">
-	
-		<?php $row = mysqli_fetch_assoc($result); ?>
+
+       <?php $row = mysqli_fetch_assoc($result); ?>
      
 		<h1> <?php echo $row["title"] ?> </h1>
 	 
@@ -34,10 +34,18 @@
 	 
 		<span id = date> Post date: <?php echo $row["date"] ?> </span>
 	 
-		<article class = "panel panel-default">	
-			<p class="panel-body"> <?php echo $row["notes"] ?> </p>			
+		<article class = "panel panel-default">
+            <p class="panel-body"> <?php echo $row["notes"] ?> </p>
 		</article>
-		
+
+        <?php
+            $filePath = $row['filepath'];
+            if(file_exists($filePath)) {
+                echo "<a href='download.php/?id=" . $row['note_id'] . "'>
+                    <span class ='glyphicon glyphicon-file'></span> Click to download</a>";
+            }
+        ?>
+
 		<?php  mysqli_free_result($result); ?>
 	
 	</main>
@@ -45,3 +53,4 @@
     <?php include(SCRIPTS); ?>
 </body>
 </html>
+
