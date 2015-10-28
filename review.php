@@ -95,7 +95,7 @@
         $fileSize = $_FILES['fileToUpload']['size'];
 
         $query = "INSERT INTO $note_table ($note_title, $note_date, $note_content, $student_id, $subject_id, name, type, size, filepath)
-                  VALUES ('$title', '$current_date', '$content', $session_student_id, 111, '$fileName','$fileType', '$fileSize', '$filePath')";
+                  VALUES ('$title', '$current_date', '$content', $session_student_id, $subject_number, '$fileName','$fileType', '$fileSize', '$filePath')";
 
         $result = mysqli_query($connection, $query);
         if (!$result) {
