@@ -25,17 +25,18 @@ $(document).ready(function() {
 
     var input_check = 'input-validators/register-validator-input.php';
     var required = 'Required';
-    var filled = 'tick.jpeg';
-    var passwordLength = "must be at least 6 characters";
-    var notMatching = "passwords don't match";
     var available = 'Available';
+    var passwordLength = "Too short";
+    var notMatching = "not matching";
 
     firstname_input.keyup(function() {
         if (firstname_input.val().length < 1) {
             firstname_status.text(required);
+            firstname_status.removeClass('glyphicon glyphicon-ok tick');
             firstname_validated = false;
         } else {
-            firstname_status.text(filled);
+            firstname_status.addClass('glyphicon glyphicon-ok tick');
+            firstname_status.text('');
             firstname_validated = true;
         }
     });
@@ -43,9 +44,11 @@ $(document).ready(function() {
     lastname_input.keyup(function() {
        if (lastname_input.val().length < 1)  {
            lastname_status.text(required);
+           lastname_status.removeClass('glyphicon glyphicon-ok tick');
            lastname_validated = false;
        } else {
-           lastname_status.text(filled);
+           lastname_status.addClass('glyphicon glyphicon-ok tick');
+           lastname_status.text('');
            lastname_validated = true;
        }
     });
@@ -55,9 +58,11 @@ $(document).ready(function() {
 
         if (pass.length < 6) {
             password_status.text(passwordLength);
+            password_status.removeClass('glyphicon glyphicon-ok tick');
             password_validated = false;
         } else {
-            password_status.text(filled);
+            password_status.addClass('glyphicon glyphicon-ok tick');
+            password_status.text('');
             password_validated = true;
         }
         checkPasswordsMatch();
@@ -71,9 +76,11 @@ $(document).ready(function() {
         var pass = password_input.val();
         if (pass.length != 0) {
             if (repass_input.val() === password_input.val()) {
-                repass_status.text(filled);
                 password_match = true;
+                repass_status.addClass('glyphicon glyphicon-ok tick');
+                repass_status.text('');
             } else {
+                repass_status.removeClass('glyphicon glyphicon-ok tick');
                 repass_status.text(notMatching);
                 password_match = false;
             }
@@ -86,25 +93,43 @@ $(document).ready(function() {
     username_input.keyup(function() {
         if (username_input.val().length < 1) {
             username_status.text(required);
+            username_status.removeClass('glyphicon glyphicon-ok tick');
             email_validated = false;
         } else {
             $.post(input_check, {username:username_input.val()},
             function(result) {
-                username_status.text(result);
-                username_validated = !!result.match(available);
+                username_validated = result.match(available);
+                if (username_validated) {
+                    username_status.addClass('glyphicon glyphicon-ok tick');
+                    username_status.text('');
+                } else {
+                    username_status.removeClass('glyphicon glyphicon-ok tick');
+                    username_status.text(result);
+                }
             });
         }
     });
 
     email_input.keyup(function() {
-        if (email_input.val().length < 1) {
+        var userEmail = email_input.val();
+        if (userEmail.length < 1) {
             email_status.text(required);
+            email_status.removeClass('glyphicon glyphicon-ok tick');
             email_validated = false;
+        } else if (userEmail.indexOf('@') === -1) {
+            email_status.removeClass('glyphicon glyphicon-ok tick');
+            email_status.text('Not an email')
         } else {
             $.post(input_check, {email:email_input.val()},
             function(result) {
-                email_status.text(result);
-                email_validated = !!result.match(available);
+                email_validated = result.match(available);
+                if (email_validated) {
+                    email_status.text('');
+                    email_status.addClass('glyphicon glyphicon-ok tick');
+                } else {
+                    email_status.removeClass('glyphicon glyphicon-ok tick');
+                    email_status.text(result);
+                }
             });
         }
     });

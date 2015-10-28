@@ -229,11 +229,23 @@ width: $standard-width;
   }
 
   input {
-    width: 100%;
+    width: 75%;
     margin-bottom: 10px;
     padding: $input-padding;
     height: $input-height;
     font-size: $input-fontsize;
+  }
+
+  span {
+    color: #B94A48;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .tick {
+    font-family: 'Glyphicons Halflings';
+    color: limegreen;
+    font-size: x-large;
   }
 
 }
