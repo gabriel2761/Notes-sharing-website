@@ -30,8 +30,11 @@
     $student_password = STUDENT_PASSWORD;
     $student_email = STUDENT_EMAIL;
 
+    // encrypt password
+    $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+
     $query  = "INSERT INTO $student_table ($student_username, $student_firstname,$student_lastname,$student_password, $student_email)";
-    $query .= "VALUES ('$username','$first_name','$last_name','$password','$email');";
+    $query .= "VALUES ('$username','$first_name','$last_name','$hashed_password','$email');";
 
     $result = mysqli_query($connection, $query);
     if (!$result) {

@@ -20,12 +20,13 @@
 
         $query  = " SELECT $student_id ,$student_username, $student_password ";
         $query .= " FROM $student_table ";
-        $query .= " WHERE $student_username = '$username' && $student_password = '$password';";
+        $query .= " WHERE $student_username = '$username';";
 
         $result = mysqli_query($connection, $query);
-        $num_rows = mysqli_num_rows($result);
+        $row = mysqli_fetch_assoc($result);
+        $hashed_password = $row[$student_password];
 
-        if ($num_rows != 0) {
+        if (password_verify($password, $hashed_password)) {
             session_start();
 
             include('../included-files/SessionConstant.php');

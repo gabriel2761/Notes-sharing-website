@@ -15,7 +15,7 @@
 
     <form method="post" action="index.php" class="register-form" onsubmit="return validate()">
         <input id="username" class="form-control" name=<?php echo POST_USERNAME ?> placeholder="Username">
-        <input id="password" class="form-control" name=<?php echo POST_PASSWORD ?> placeholder="Password">
+        <input id="password" type="password" class="form-control" name=<?php echo POST_PASSWORD ?> placeholder="Password">
         <button type="submit" class="btn btn-danger">Log in</button>
         <span id="login-status"></span>
     </form>

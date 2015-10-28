@@ -29,7 +29,7 @@ CREATE TABLE student (
   first_name VARCHAR(30) NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   username VARCHAR(15) NOT NULL,
-  password VARCHAR(20) NOT NULL,
+  password VARCHAR(70) NOT NULL,
   email VARCHAR(50) NOT NULL,
   PRIMARY KEY (student_id)
 );
