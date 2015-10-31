@@ -18,7 +18,7 @@
                     <h1>New Note</h1>
                 </header>
 
-                <form method="post" enctype="multipart/form-data" action="review.php">
+                <form method="post" enctype="multipart/form-data" onsubmit="return validSubject()" action="review.php">
                     <input id="subject-number-input" class="form-control"
                            name=<?php echo POST_NOTE_NUMBER; ?> type="text" placeholder="Subject No.">
                     <input class="form-control" name=<?php echo POST_NOTE_TITLE; ?> type="text" placeholder="Title">
