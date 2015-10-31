@@ -14,6 +14,17 @@ $(function() {
 
 function validSubject() {
     var subno = $('#subject-number-input').val();
-    return subjectNumbers.indexOf(subno) > -1;
+    var error = $('#error-check');
+    var subnoExists = subjectNumbers.indexOf(subno) > -1;
+
+
+    if (subnoExists) {
+        error.text('');
+        return true;
+    } else {
+        error.text('Subject number does not exist!');
+        return false;
+    }
+
 }
 

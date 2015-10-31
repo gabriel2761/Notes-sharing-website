@@ -32,6 +32,11 @@
                     <button type="submit" class="btn btn-danger">Cancel</button>
                 </form>
 
+                <div id="error-check" hidden>
+                    <span></span>
+                </div>
+
+
             </main>
 
         <?php } ?>
