@@ -4,11 +4,15 @@
     $searchResult = $_GET["search"];
 	if (isset($_GET["page"])) { $page  = $_GET["page"]; } else { $page=1; };
 	$start_from = ($page-1) * 15;
-    $query  = "SELECT * ";
-    $query .= "FROM note ";
-    $query .= "WHERE subject_id = '" . $searchResult . "' ";
-    $query .= "OR title REGEXP '[[:<:]]" . $searchResult . "[[:>:]]'"; 
-    $query .= "LIMIT " . $start_from . ", 15;";
+    $query  = " SELECT * ";
+    $query .= " FROM note ";
+    $query .= " WHERE subject_id ";
+    $query .= " IN (SELECT subject_id ";
+    $query .= " FROM subject ";
+    $query .= " WHERE subject_no = '$searchResult' ";
+    $query .= " OR title  REGEXP '[[:<:]]" . $searchResult . "[[:>:]]') ";
+    $query .= " LIMIT " . $start_from . ", 15;";
+
     $result = mysqli_query($connection, $query);
 
     if (!$result) {
