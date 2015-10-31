@@ -33,8 +33,6 @@
 
             $_SESSION[SESSION_STATUS] = true;
             $_SESSION[SESSION_STUDENT_USERNAME] = $username;
-
-            $row = mysqli_fetch_assoc($result);
             $_SESSION[SESSION_STUDENT_ID] = $row[$student_id];
 
             echo true;
