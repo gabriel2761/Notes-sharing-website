@@ -17,7 +17,6 @@ function validSubject() {
     var error = $('#error-check');
     var subnoExists = subjectNumbers.indexOf(subno) > -1;
 
-
     if (subnoExists) {
         error.text('');
         return true;

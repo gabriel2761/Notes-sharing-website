@@ -1,7 +1,7 @@
 <?php include('/included-files/connect-database.php'); ?>
 
 <?php 
-    $subject_number = $_POST[POST_NOTE_NUMBER];
+    $post_subject_number = $_POST[POST_NOTE_NUMBER];
     $title = $_POST[POST_NOTE_TITLE];
     $content = $_POST[POST_NOTE_CONTENT];
 ?>
@@ -23,7 +23,7 @@
 		</div>
 		
 		<p><b>Title: </b><?php echo $title ?> </p>
-        <p><b>Subject Number: </b><?php echo $subject_number; ?></p> 		
+        <p><b>Subject Number: </b><?php echo $post_subject_number; ?></p>
         
 		<?php $current_date = date("Y-m-d H:i:s"); ?>
         <p><b>Time: </b> <?php echo $current_date ?> </p>
@@ -39,6 +39,8 @@
         $note_content = NOTE_CONTENT;
         $student_id = STUDENT_ID;
         $subject_id = SUBJECT_ID;
+        $subject_number = SUBJECT_NUMBER;
+        $subject_table = SUBJECT_TABLE_NAME;
 
 
         $session_student_id = $_SESSION[SESSION_STUDENT_ID];
@@ -94,8 +96,14 @@
         $fileType = $_FILES['fileToUpload']['type'];
         $fileSize = $_FILES['fileToUpload']['size'];
 
+        $subno_query =  " SELECT $subject_id ";
+        $subno_query .= " FROM $subject_table ";
+        $subno_query .= " WHERE $subject_number = '$post_subject_number'; ";
+
+        $subid = mysqli_fetch_assoc(mysqli_query($connection, $subno_query))[$subject_id];
+
         $query = "INSERT INTO $note_table ($note_title, $note_date, $note_content, $student_id, $subject_id, name, type, size, filepath)
-                  VALUES ('$title', '$current_date', '$content', $session_student_id, $subject_number, '$fileName','$fileType', '$fileSize', '$filePath')";
+                  VALUES ('$title', '$current_date', '$content', $session_student_id, $subid, '$fileName','$fileType', '$fileSize', '$filePath')";
 
         $result = mysqli_query($connection, $query);
         if (!$result) {
