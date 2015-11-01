@@ -52,9 +52,12 @@
         </section>
 
 			<?php
-			$sql = "SELECT COUNT(note_id) FROM note ";
-            $sql .= "WHERE subject_id= '" . $searchResult ."' ";
-            $sql .= "OR title REGEXP '[[:<:]]" . $searchResult . "[[:>:]]';";
+			$sql  = " SELECT COUNT(note_id) FROM note ";
+            $sql .= " WHERE subject_id ";
+            $sql .= " IN (SELECT subject_id ";
+            $sql .= " FROM subject ";
+            $sql .= " WHERE subject_no = '$searchResult' ";
+            $sql .= "OR title REGEXP '[[:<:]]" . $searchResult . "[[:>:]]');";
             $rs_result = mysqli_query($connection, $sql);
 
             if (!$rs_result) {
