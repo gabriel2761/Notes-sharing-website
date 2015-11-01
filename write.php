@@ -21,8 +21,8 @@
                 <form method="post" enctype="multipart/form-data" onsubmit="return validSubject()" action="review.php">
                     <input id="subject-number-input" class="form-control"
                            name=<?php echo POST_NOTE_NUMBER; ?> type="text" placeholder="Subject No.">
-                    <input class="form-control" name=<?php echo POST_NOTE_TITLE; ?> type="text" placeholder="Title">
-                    <textarea class="form-control" placeholder="Write notes"
+                    <input id="note-title" class="form-control" name=<?php echo POST_NOTE_TITLE; ?> type="text" placeholder="Title">
+                    <textarea id="note-content" class="form-control" placeholder="Write notes"
                               name=<?php echo POST_NOTE_CONTENT; ?> id=""></textarea>
                     <input type="file" name="fileToUpload" id="fileToUpload">
                     <button type="submit" class="btn btn-danger">Submit</button>
