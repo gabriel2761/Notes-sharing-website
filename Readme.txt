@@ -9,7 +9,7 @@ On windows.
 http://www.wampserver.com/en/
 
 2. Run WAMP, and start all servers.
-When WAMP is running click select WAMP in the windows icon tray and select "Start all services"
+When WAMP is installed click select WAMP in the windows icon tray and select "Start all services"
 
 3. Create the database
 Select WAMP from the windows icon tray and select MySQL > MySQL console. If it is the first time install mysql then press enter when prompt to enter password. Otherwise enter the previous password given.
