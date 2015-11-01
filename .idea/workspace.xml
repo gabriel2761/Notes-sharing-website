@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1fa8bbc3-45b1-42b6-b8f4-559dcf40dea3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes.php" afterPath="$PROJECT_DIR$/notes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lynda.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,24 +42,44 @@
       <file leaf-file-name="notes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47805268">
-              <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.49162012">
+              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
-                <marker date="1446399896295" expanded="true" signature="1791:1822" placeholder="SELECT COUNT..note..." />
-                <marker date="1446399896295" expanded="true" signature="2659:2831" placeholder="..." />
-                <marker date="1446399896295" expanded="true" signature="2732:2826" placeholder="..." />
-                <marker date="1446399896295" expanded="true" signature="3490:3663" placeholder="..." />
-                <marker date="1446399896295" expanded="true" signature="3563:3658" placeholder="..." />
+                <marker date="1446400100917" expanded="true" signature="1814:1845" placeholder="SELECT COUNT..note..." />
+                <marker date="1446400100917" expanded="true" signature="2682:2854" placeholder="..." />
+                <marker date="1446400100917" expanded="true" signature="2755:2849" placeholder="..." />
+                <marker date="1446400100917" expanded="true" signature="3513:3686" placeholder="..." />
+                <marker date="1446400100917" expanded="true" signature="3586:3681" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register-validator-input.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input-validators/register-validator-input.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="45" />
+            <state vertical-scroll-proportion="-15.038462">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notesQueries.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notesQueries.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-validation-script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jscript/login-validation-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -86,6 +105,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="search-subject.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jscript/search-subject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/write.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,41 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login-validator-input.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input-validators/login-validator-input.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="register-validation-script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jscript/register-validation-script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="109" column="41" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head-setup.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/included-files/head-setup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation-bar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/included-files/navigation-bar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.692307">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -534,11 +533,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
           <folding>
-            <marker date="1446399896295" expanded="true" signature="1791:1822" placeholder="SELECT COUNT..note..." />
-            <marker date="1446399896295" expanded="true" signature="2659:2831" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="2732:2826" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3490:3663" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3563:3658" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="1814:1845" placeholder="SELECT COUNT..note..." />
+            <marker date="1446400100917" expanded="true" signature="2682:2854" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="2755:2849" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3513:3686" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3586:3681" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -607,11 +606,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
           <folding>
-            <marker date="1446399896295" expanded="true" signature="1791:1822" placeholder="SELECT COUNT..note..." />
-            <marker date="1446399896295" expanded="true" signature="2659:2831" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="2732:2826" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3490:3663" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3563:3658" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="1814:1845" placeholder="SELECT COUNT..note..." />
+            <marker date="1446400100917" expanded="true" signature="2682:2854" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="2755:2849" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3513:3686" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3586:3681" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -672,11 +671,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
           <folding>
-            <marker date="1446399896295" expanded="true" signature="1791:1822" placeholder="SELECT COUNT..note..." />
-            <marker date="1446399896295" expanded="true" signature="2659:2831" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="2732:2826" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3490:3663" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3563:3658" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="1814:1845" placeholder="SELECT COUNT..note..." />
+            <marker date="1446400100917" expanded="true" signature="2682:2854" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="2755:2849" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3513:3686" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3586:3681" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -728,11 +727,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1446399896295" expanded="true" signature="1791:1822" placeholder="SELECT COUNT..note..." />
-            <marker date="1446399896295" expanded="true" signature="2659:2831" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="2732:2826" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3490:3663" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3563:3658" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="1814:1845" placeholder="SELECT COUNT..note..." />
+            <marker date="1446400100917" expanded="true" signature="2682:2854" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="2755:2849" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3513:3686" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3586:3681" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -750,11 +749,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1446399896295" expanded="true" signature="1791:1822" placeholder="SELECT COUNT..note..." />
-            <marker date="1446399896295" expanded="true" signature="2659:2831" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="2732:2826" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3490:3663" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3563:3658" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="1814:1845" placeholder="SELECT COUNT..note..." />
+            <marker date="1446400100917" expanded="true" signature="2682:2854" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="2755:2849" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3513:3686" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3586:3681" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -767,13 +766,6 @@
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notesQueries.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/included-files/connect-database.php">
@@ -818,22 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jscript/search-subject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/confirm-register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -864,14 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jscript/login-validation-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input-validators/search-input.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -892,14 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.923077">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jscript/register-validation-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="41" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -952,16 +912,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notesQueries.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jscript/register-validation-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="41" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jscript/login-validation-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jscript/search-subject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47805268">
-          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.49162012">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
-            <marker date="1446399896295" expanded="true" signature="1791:1822" placeholder="SELECT COUNT..note..." />
-            <marker date="1446399896295" expanded="true" signature="2659:2831" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="2732:2826" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3490:3663" placeholder="..." />
-            <marker date="1446399896295" expanded="true" signature="3563:3658" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="1814:1845" placeholder="SELECT COUNT..note..." />
+            <marker date="1446400100917" expanded="true" signature="2682:2854" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="2755:2849" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3513:3686" placeholder="..." />
+            <marker date="1446400100917" expanded="true" signature="3586:3681" placeholder="..." />
           </folding>
         </state>
       </provider>

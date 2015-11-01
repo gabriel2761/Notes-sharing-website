@@ -39,7 +39,7 @@
             <?php
             if (mysqli_num_rows($result) == 0) {
                 echo '<h1>No results Found</h1>';
-                echo "<a href='../notes-sharing-website/index.php' >< Back to search</a>";
+                echo "<a href='../notes-sharing-website/index.php' class='btn btn-danger' >< Back to search</a>";
             }
 
                 while ($row = mysqli_fetch_assoc($result)) {
