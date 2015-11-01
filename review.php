@@ -50,7 +50,7 @@
 
         $session_student_id = $_SESSION[SESSION_STUDENT_ID];
 
-        if ($_FILES['fileToUpload']['size'] == 0 && $_FILES['fileToUpload']['error'] == 0) {
+        if ($_FILES['fileToUpload']['size'] > 0) {
 
             $target_file = "uploads/" . basename($_FILES["fileToUpload"]["name"]);
             $uploadOk = 1;
