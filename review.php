@@ -46,7 +46,7 @@
         $fileName = '';
         $fileType = 0;
         $fileSize = 0;
-        $filePath = 0;
+        $filePath = "";
 
         $session_student_id = $_SESSION[SESSION_STUDENT_ID];
 
@@ -77,8 +77,6 @@
                     echo "The file is not a valid file type <br>";
                     echo "Only .pdf, .doc, .docx, .ppt, .pptx, .xls, .xlsx files are accepted. <br>";
             }
-
-            $filePath = "";
 
             while ($uploadOk == 1) {
                 $filePath = "uploads/" . uniqid() . '.' . $fileExtension;

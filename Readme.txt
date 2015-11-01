@@ -30,7 +30,7 @@ Select WAMP from the windows icon tray and select MySQL > MySQL console. If it i
 
 	CREATE TABLE note (
 		note_id INT(11) NOT NULL AUTO_INCREMENT,
-		title VARCHAR(20) NOT NULL,	
+		title VARCHAR(40) NOT NULL,
 		date DATE NOT NULL,
 		notes TEXT NOT NULL,
 		type VARCHAR(30),

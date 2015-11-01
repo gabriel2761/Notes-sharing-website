@@ -7,6 +7,7 @@
     <list default="true" id="1fa8bbc3-45b1-42b6-b8f4-559dcf40dea3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.txt" afterPath="$PROJECT_DIR$/Readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notesQueries.sql" afterPath="$PROJECT_DIR$/notesQueries.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/review.php" afterPath="$PROJECT_DIR$/review.php" />
     </list>
     <ignored path="lynda.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +44,7 @@
       <file leaf-file-name="notes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.73077">
+            <state vertical-scroll-proportion="-12.230769">
               <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
               <folding>
                 <marker date="1446401353230" expanded="true" signature="1899:1930" placeholder="SELECT COUNT..note..." />
@@ -86,21 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notesQueries.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notesQueries.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notesQueries.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25254104">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="22" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="38" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.63799846">
+              <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -119,10 +120,10 @@
       <file leaf-file-name="review.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/review.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-57.346153">
-              <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+            <state vertical-scroll-proportion="-31.384615">
+              <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
               <folding>
-                <marker date="1446403126896" expanded="true" signature="3831:4094" placeholder="INSERT INTO ..." />
+                <marker date="1446404077887" expanded="true" signature="3803:4066" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -182,8 +183,8 @@
         <option value="$PROJECT_DIR$/src/style/sass/style.scss" />
         <option value="$PROJECT_DIR$/notes.php" />
         <option value="$PROJECT_DIR$/review.php" />
-        <option value="$PROJECT_DIR$/Readme.txt" />
         <option value="$PROJECT_DIR$/notesQueries.sql" />
+        <option value="$PROJECT_DIR$/Readme.txt" />
       </list>
     </option>
   </component>
@@ -571,7 +572,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
           <folding>
-            <marker date="1446403126896" expanded="true" signature="3831:4094" placeholder="INSERT INTO ..." />
+            <marker date="1446404077887" expanded="true" signature="3803:4066" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -642,7 +643,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
-            <marker date="1446403126896" expanded="true" signature="3831:4094" placeholder="INSERT INTO ..." />
+            <marker date="1446404077887" expanded="true" signature="3803:4066" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -695,7 +696,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1446403126896" expanded="true" signature="3831:4094" placeholder="INSERT INTO ..." />
+            <marker date="1446404077887" expanded="true" signature="3803:4066" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -901,36 +902,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.73077">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-          <folding>
-            <marker date="1446401353230" expanded="true" signature="1899:1930" placeholder="SELECT COUNT..note..." />
-            <marker date="1446401353230" expanded="true" signature="2767:2939" placeholder="..." />
-            <marker date="1446401353230" expanded="true" signature="2840:2934" placeholder="..." />
-            <marker date="1446401353230" expanded="true" signature="3598:3771" placeholder="..." />
-            <marker date="1446401353230" expanded="true" signature="3671:3766" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/confirm-register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1446290923392" expanded="true" signature="908:1026" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-57.346153">
-          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
-          <folding>
-            <marker date="1446403126896" expanded="true" signature="3831:4094" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -943,18 +920,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.txt">
+    <entry file="file://$PROJECT_DIR$/review.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="38" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="-31.384615">
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <folding>
+            <marker date="1446404077887" expanded="true" signature="3803:4066" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.230769">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <marker date="1446401353230" expanded="true" signature="1899:1930" placeholder="SELECT COUNT..note..." />
+            <marker date="1446401353230" expanded="true" signature="2767:2939" placeholder="..." />
+            <marker date="1446401353230" expanded="true" signature="2840:2934" placeholder="..." />
+            <marker date="1446401353230" expanded="true" signature="3598:3771" placeholder="..." />
+            <marker date="1446401353230" expanded="true" signature="3671:3766" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notesQueries.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25254104">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="22" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63799846">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
           <folding />
         </state>
       </provider>
