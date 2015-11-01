@@ -19,6 +19,10 @@ CREATE TABLE note (
 	notes TEXT NOT NULL,
   student_id INT(11),
   subject_id INT(11),
+  type VARCHAR(30),
+  size INT(11),
+  name VARCHAR(30),
+  filepath VARCHAR(30),
 	PRIMARY KEY(note_id),
   CONSTRAINT fk_studentNote FOREIGN KEY (student_id) REFERENCES student(student_id),
   CONSTRAINT fk_subjectNote FOREIGN KEY (subject_id) REFERENCES subject(subject_id)
