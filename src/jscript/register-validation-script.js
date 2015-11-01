@@ -172,12 +172,8 @@ email_input.keyup(function() {
 });
 
 function validateForm() {
-    if (usernameCorrect() && firstNameCorrect() && lastNameCorrect() && emailCorrect() &&
-        passwordCorrect() && passwordsMatch()) {
-        return true;
-    } else {
-        return false;
-    }
+    return !!(usernameCorrect() && firstNameCorrect() && lastNameCorrect() && emailCorrect() &&
+    passwordCorrect() && passwordsMatch());
 }
 
 
