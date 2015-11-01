@@ -95,6 +95,11 @@ main {
   margin-bottom: 20px; }
 #list-notes-main h2 {
   font-size: 18px; }
+#list-notes-main .messageCenter {
+  text-align: center;
+  padding: 4.0em; }
+  #list-notes-main .messageCenter h1 {
+    padding: 1.0em; }
 #list-notes-main .list-group {
   margin: 10px 0; }
   #list-notes-main .list-group .list-group-item .list-group-item-text {

@@ -38,8 +38,10 @@
 			
             <?php
             if (mysqli_num_rows($result) == 0) {
+                echo "<div class = 'messageCenter'>";
                 echo '<h1>No results Found</h1>';
                 echo "<a href='../notes-sharing-website/index.php' class='btn btn-danger' >< Back to search</a>";
+                echo '</div>';
             }
 
                 while ($row = mysqli_fetch_assoc($result)) {
