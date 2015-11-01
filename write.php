@@ -8,6 +8,8 @@
 </head>
 <body>
     <?php include(NAVIGATION_BAR); ?>
+    <?php include(SCRIPTS); ?>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
     <?php
         if ($user_logged_in == true) { ?>
@@ -41,8 +43,6 @@
 
         <?php } ?>
 
-    <?php include(SCRIPTS); ?>
-    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="src/jscript/search-subject.js" ></script>
 </body>
 </html>
