@@ -7,11 +7,12 @@
 </head>
 <body>
 <?php include(NAVIGATION_BAR); ?>
+<?php include(SCRIPTS); ?>
 
 <main class="login-main">
     <header>
         <h1>Log in</h1>
-    </header> 
+    </header>
 
     <form method="post" action="index.php" class="register-form" onsubmit="return validate()">
         <input id="username" class="form-control" name=<?php echo POST_USERNAME ?> placeholder="Username">
@@ -22,7 +23,6 @@
 
 </main>
 
-<?php include(SCRIPTS); ?>
 <script type="text/javascript" src="src/jscript/login-validation-script.js"></script>
 </body>
 </html>
