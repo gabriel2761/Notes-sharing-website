@@ -17,6 +17,12 @@ Select WAMP from the windows icon tray and select MySQL > MySQL console. If it i
 
 4. Create the database tables and the user in the command prompt, when logged into MySQL console. The SQL statements are posted below.
 
+5. Add the Project folder Notes-sharing-website to the WAMP directory. The location in windows is usually: C:\wamp\www\
+
+6. Run the website
+Open a browser and run the url, http://localhost/Notes-sharing-website/ 
+
+
 ``` SQL
 	# The user name and password must match
 	CREATE DATABASE notes;
@@ -36,9 +42,9 @@ Select WAMP from the windows icon tray and select MySQL > MySQL console. If it i
 		date DATE NOT NULL,
 		notes TEXT NOT NULL,
 		type VARCHAR(30),
-    size INT(11),
-    name VARCHAR(30),
-    filepath VARCHAR(30),
+		size INT(11),
+		name VARCHAR(30),
+	    	filepath VARCHAR(30),
 		student_id INT(11),
 		subject_id INT(11),
 		PRIMARY KEY(note_id),
@@ -57,9 +63,8 @@ Select WAMP from the windows icon tray and select MySQL > MySQL console. If it i
 	);
 
 
-	/*
-	    creates the constant subject numbers for the website
-	*/
+	
+	# creates the constant subject numbers for the website
 	INSERT INTO subject (subject_no)
 	    VALUES
 	      (32013),
@@ -69,10 +74,7 @@ Select WAMP from the windows icon tray and select MySQL > MySQL console. If it i
 	      (22708),;
 ```
 
-5. Add the Project folder Notes-sharing-website to the WAMP directory. The location in windows is usually: C:\wamp\www\
 
-6. Run the website
-Open a browser and run the url, http://localhost/Notes-sharing-website/
 
 
 
