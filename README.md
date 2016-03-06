@@ -1,14 +1,15 @@
-Readme.txt
+# UTS Note sharing website project
+
+This project was our proposal for the course [48440 Software Engineering Practice](http://handbook.uts.edu.au/subjects/48440.html) At University of Technology, Sydney.
 
 In order to run the software locally, a server must be installed.
 The current software only runs locally on windows directories.
 
-On windows.
+### Windows
 
-1. Install WAMP for windows.
-http://www.wampserver.com/en/
+1. Install WAMP for windows. [Link](http://www.wampserver.com/en/)
 
-2. Run WAMP, and start all servers.
+2. Run WAMP, and start all servers. 
 When WAMP is installed click select WAMP in the windows icon tray and select "Start all services"
 
 3. Create the database
@@ -16,7 +17,8 @@ Select WAMP from the windows icon tray and select MySQL > MySQL console. If it i
 
 4. Create the database tables and the user in the command prompt, when logged into MySQL console. The SQL statements are posted below.
 
-	# The users must be specifically
+``` SQL
+	# The user name and password must match
 	CREATE DATABASE notes;
 	CREATE USER 'gabriel'@'localhost' IDENTIFIED BY 'password';
 	GRANT ALL PRIVILEGES ON *.* TO 'gabriel'@'localhost';
@@ -64,8 +66,8 @@ Select WAMP from the windows icon tray and select MySQL > MySQL console. If it i
 	      (89204),
 	      (32543),
 	      (31241),
-	      (22708),
-	;
+	      (22708),;
+```
 
 5. Add the Project folder Notes-sharing-website to the WAMP directory. The location in windows is usually: C:\wamp\www\
 
