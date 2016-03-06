@@ -1,4 +1,4 @@
-# UTS Note sharing website project
+# UTS Note Sharing Website Project
 
 This project was our proposal for the course [48440 Software Engineering Practice](http://handbook.uts.edu.au/subjects/48440.html) At University of Technology, Sydney.
 
